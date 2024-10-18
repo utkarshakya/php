@@ -2,7 +2,7 @@
 PHP (Hypertext Prepocesser), A Simple Docs.
 
 
-# To Get Start
+## To Get Start
 - Install VS Code.
 - Install XAMPP.
 - Open XAMPP, always run it as Administrator.
