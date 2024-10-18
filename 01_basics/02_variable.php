@@ -9,4 +9,8 @@ echo $name;
 
 // There is no need to define the data type while declaring variables unlike C language.
 // php is more like a Javascript where we just need to use let to define a variable, here its $. That't it.
+
+// NOTE: Data Types in php are mostly same as in C language, but since php is little advance so it also have some more.
+// Check it out here: https://www.php.net/manual/en/language.types.intro.php
+// Although there is a lot in php but we grasp it slowly.
 ?>
