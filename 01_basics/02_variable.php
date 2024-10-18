@@ -13,4 +13,19 @@ echo $name;
 // NOTE: Data Types in php are mostly same as in C language, but since php is little advance so it also have some more.
 // Check it out here: https://www.php.net/manual/en/language.types.intro.php
 // Although there is a lot in php but we grasp it slowly.
+
+// One More thing, remember these functions:
+// 1. var_dump() - used to get the value and type of a variable.
+// 2. get_debug_type() - used to get the type of variable.
+// 3. is_type() - used to check if the variable is certain type or not (type is replaced by the real type we want to check).
+
+// Uncomment to see the below statement's output:
+/*
+echo "<br>";
+echo get_debug_type($name);
+echo "<br>";
+echo var_dump($name);
+echo "<br>";
+echo is_string($name);
+*/
 ?>
