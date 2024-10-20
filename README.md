@@ -1,5 +1,5 @@
 # PHP Learning Docs
-PHP (Hypertext Prepocesser), A Simple Docs.
+A Simple Docs. for PHP (Hypertext Preprocessor) Language.
 
 
 ## To Get Start
