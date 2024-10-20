@@ -46,7 +46,7 @@
 //     |       +-- Or (||)
 //     |       +-- Not (!)
 //     |       +-- And (and)
-//     |       +       +-- Or (or)
+//     |       +-- Or (or)
 //     |       +-- Xor (xor)
 //     |
 //     +-- String Operators
