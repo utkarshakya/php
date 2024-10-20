@@ -1,7 +1,7 @@
 <?php
 // Like All Other Languages PHP Also Has Same Basic Operator
 
-// Operators in PHP:
+// Operators in PHP
 //     |
 //     +-- Arithmetic Operators
 //     |       |
@@ -10,6 +10,7 @@
 //     |       +-- Multiplication (*)
 //     |       +-- Division (/)
 //     |       +-- Modulus (%)
+//     |       +-- Exponentiation (**)
 //     |
 //     +-- Assignment Operators
 //     |       |
@@ -18,6 +19,9 @@
 //     |       +-- Subtraction Assignment (-=)
 //     |       +-- Multiplication Assignment (*=)
 //     |       +-- Division Assignment (/=)
+//     |       +-- Modulus Assignment (%=)
+//     |       +-- Exponentiation Assignment (**=)
+//     |       +-- Concatenation Assignment (.=)
 //     |
 //     +-- Comparison Operators
 //     |       |
@@ -27,6 +31,9 @@
 //     |       +-- Not Identical (!==)
 //     |       +-- Greater Than (>)
 //     |       +-- Less Than (<)
+//     |       +-- Greater Than or Equal To (>=)
+//     |       +-- Less Than or Equal To (<=)
+//     |       +-- Spaceship (<=>)
 //     |
 //     +-- Increment/Decrement Operators
 //     |       |
@@ -38,6 +45,9 @@
 //     |       +-- And (&&)
 //     |       +-- Or (||)
 //     |       +-- Not (!)
+//     |       +-- And (and)
+//     |       +       +-- Or (or)
+//     |       +-- Xor (xor)
 //     |
 //     +-- String Operators
 //     |       |
@@ -52,12 +62,7 @@
 //             +-- Inequality (!=)
 //             +-- Non-Identity (!==)
 
+
 // And Many More, PHP Is Keep Evolving It Also Has New Operators Like The Nullish Coalescing Operator, etc.
-
-$num1 = 3;
-$num2 = 2;
-echo "3 ^ 2 = ".($num1**$num2);
-// And ** is a exponential operator.
-
 // There is so much to talk on operators but we'll learn them as we go through.
 // Check All Here: https://www.php.net/manual/en/language.operators.php
