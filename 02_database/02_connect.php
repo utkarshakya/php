@@ -17,7 +17,7 @@ $password = "";
 try {
     $conn = mysqli_connect($hostname, $username, $password);
     // mysql_connect is used to make a connection.
-    
+
     echo "Connection Successful";
 } catch (mysqli_sql_exception $err) {
     echo "Access Denied";
@@ -25,3 +25,7 @@ try {
 // Note: here we are using the try catch block to exceptions.
 
 // And Bingo, If you see the Connection Successful then you are connected to the database.
+
+// The Below Line Is Important, It Close The Connection From Database, Which is a Good Practice.
+mysqli_close($conn);
+?>
