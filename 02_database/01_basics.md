@@ -57,6 +57,8 @@
   WHERE condition;
   ```
 
-### Learn More About SQL From Here --> https://www.w3schools.com/mysql/mysql_sql.asp
+### Learn More About SQL From Here --> <https://www.w3schools.com/mysql/mysql_sql.asp>
 
 **Note: You Have To Complete SQL Basics To Proceed Further, Don't Go Deep In It Just Get The Basics From The Above Link.**
+
+There One More Thing, Remember We had Installed XAMPP. Now in the xampp controller when you start MySQL then you go to phpMyAdmin which is a GUI for the RDBMS.
