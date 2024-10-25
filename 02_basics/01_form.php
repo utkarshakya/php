@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Here we use tailwind css component to get our form frontend fast. -->
+    <!-- Here We Use Tailwind CSS Component To Get Our Form Frontend Fast. -->
 </head>
 
 <body class="h-full">
@@ -16,6 +16,7 @@
 
         <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
             <form class="space-y-6" action="submit.php" method="POST">
+                <!-- NOTE, Here we send the form to submit.php. Check that file. -->
                 <div>
                     <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
                     <div class="mt-2">
