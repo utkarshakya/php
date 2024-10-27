@@ -61,4 +61,4 @@
 
 **Note: You Have To Complete SQL Basics To Proceed Further, Don't Go Deep In It Just Get The Basics From The Above Link.**
 
-There One More Thing, Remember We had Installed XAMPP. Now in the xampp controller when you start MySQL then you go to phpMyAdmin which is a GUI for the RDBMS.
+Also have you remembered we had installed xampp, xampp controller has MySQL which on start give you phpMyAdmin (a GUI to use the RDBMS).
