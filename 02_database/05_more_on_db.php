@@ -37,7 +37,7 @@ try {
 }
 
 // --- DELETING DATA FROM A TABLE ---
-$sqlDelete = "DELETE FROM `the defender`.`heroes` WHERE 'SNO' = '1'";
+$sqlDelete = "DELETE FROM `the defender`.`heroes` WHERE SNO = 1";
 try {
     mysqli_query($conn, $sqlDelete);
     echo "<br>Data Deleted Successfully";
