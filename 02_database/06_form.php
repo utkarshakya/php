@@ -1,7 +1,7 @@
 <!-- 
 REMEMBER WE HAD MAKE FORM IN THE PREVIOUS FILES, WE ARE GOING TO USE THE SAME AND NOW THAT WE
 KNOW HOW TO INTERACT WITH A DATABASE WE ARE GOING TO STORE REAL DATA IN OUR DATABASE USING THAT FORM.
-I HAVE ADDED ONE MORE FIELD IN THIS FORM NAMELY 'Full Name' AND DID MAKE IT SIGN UP FORM INSTEAD OF LOG IN.
+ALSO I HAVE ADDED A NEW FIELD 'Full Name' IN THE FORM.
 -->
 
 <!doctype html>
@@ -14,6 +14,7 @@ I HAVE ADDED ONE MORE FIELD IN THIS FORM NAMELY 'Full Name' AND DID MAKE IT SIGN
 </head>
 
 <body class="h-full">
+
     <div class="flex min-h-full flex-col  px-6 py-12 lg:px-8">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
             <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Create Your Account</h2>
@@ -43,7 +44,7 @@ I HAVE ADDED ONE MORE FIELD IN THIS FORM NAMELY 'Full Name' AND DID MAKE IT SIGN
                 </div>
 
                 <div>
-                    <button type="submit" class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign in</button>
+                    <button type="submit" class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign Up</button>
                 </div>
             </form>
         </div>
