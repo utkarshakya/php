@@ -57,8 +57,11 @@
   WHERE condition;
   ```
 
-### Learn More About SQL From Here --> <https://www.w3schools.com/mysql/mysql_sql.asp>
+---
 
-**Note: You Have To Complete SQL Basics To Proceed Further, Don't Go Deep In It Just Get The Basics From The Above Link.**
+### NOTE
 
-Also have you remembered we had installed xampp, xampp controller has MySQL which on start give you phpMyAdmin (a GUI to use the RDBMS).
+- You Must Have Basic Understanding Of SQL Commands To Proceed Further. I Am Not Covering SQL In This PHP Documentation.
+- Although If You Had Used SQL And Have Basic Understanding Of It's Commands Then You Can Proceed.
+- Adn If Not, You Can Learn SQL From [Here](Https://www.w3schools.com/mysql/mysql_sql.asp). Don't Try To Learn Everything Mentioned On The Website.
+- Just Take Basic Syllabus From Internet And Learn That. Remember You Don't Need To Be A Master In SQL Right Now.
