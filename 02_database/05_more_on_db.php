@@ -60,4 +60,7 @@ try {
 // And "TRUNCATE TABLE table_name" (This one also resets the auto_increment)
 
 // BELIEVE ME IF YOU DON'T KNOW THE BASICS OF SQL YOU'LL END UP WITH NOTHING FROM HERE.
+
+mysqli_close($conn);
+
 ?>
