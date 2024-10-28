@@ -34,4 +34,4 @@ A Simple Documentation To Learn PHP (Hypertext Preprocessor) Language Practicall
 - Creating Database
 - Using Database
 - Form Again
-- CRUD Operations
+- CRUD Operations (CREATE, READ, UPDATE, DELETE)
