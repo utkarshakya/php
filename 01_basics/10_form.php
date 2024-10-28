@@ -15,7 +15,7 @@
         </div>
 
         <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-            <form class="space-y-6" action="_submit.php" method="POST">
+            <form class="space-y-6" action="10_submit.php" method="POST">
                 <!-- NOTE, Here we send the form to _submit.php. Check that file. -->
                 <div>
                     <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
