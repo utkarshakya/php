@@ -63,4 +63,5 @@ foreach ($data as $key => $value) { // here value have the array
 }
 // That looks good in the browser, so this is how we fetch data from database. There is lot more in it but for now it is enough.
 // Check this documentation to cater your hunger(if you have one) --> https://www.php.net/manual/en/ref.mysql.php
-?>
+
+mysqli_close($conn);

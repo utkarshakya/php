@@ -28,4 +28,3 @@ try {
 
 // The Below Line Is Important, It Close The Connection From Database, Which is a Good Practice.
 mysqli_close($conn);
-?>

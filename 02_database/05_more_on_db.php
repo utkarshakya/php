@@ -8,7 +8,7 @@ try {
     $conn = mysqli_connect($hostname, $username, $password);
     echo "Connection Created Successfully";
 } catch (mysqli_sql_exception $err) {
-    echo "Sorry! ". mysqli_connect_error();
+    echo "Sorry! " . mysqli_connect_error();
     die;
 }
 
@@ -33,7 +33,7 @@ try {
     mysqli_query($conn, $sqlInsert);
     echo "<br>Data Inserted Successfully";
 } catch (mysqli_sql_exception $err) {
-    echo "<br>Sorry! ". mysqli_error($conn);
+    echo "<br>Sorry! " . mysqli_error($conn);
 }
 
 // --- DELETING DATA FROM A TABLE ---
@@ -42,7 +42,7 @@ try {
     mysqli_query($conn, $sqlDelete);
     echo "<br>Data Deleted Successfully";
 } catch (mysqli_sql_exception $err) {
-    echo "<br>Sorry! ". mysqli_error($conn);
+    echo "<br>Sorry! " . mysqli_error($conn);
 }
 
 // Now Note One Thing Here, Since we use AUTO_INCREMENT which always get incremented
@@ -53,7 +53,7 @@ try {
     mysqli_query($conn, $sqlReset);
     echo "<br>AUTO_INCREMENT Reset Successfully";
 } catch (mysqli_sql_exception $err) {
-    echo "<br>Sorry! ". mysqli_error($conn);
+    echo "<br>Sorry! " . mysqli_error($conn);
 }
 
 // NOTE: To Delete All Records From A Table We Use --> "DELETE FROM table_name"
@@ -62,5 +62,3 @@ try {
 // BELIEVE ME IF YOU DON'T KNOW THE BASICS OF SQL YOU'LL END UP WITH NOTHING FROM HERE.
 
 mysqli_close($conn);
-
-?>

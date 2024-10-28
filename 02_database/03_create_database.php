@@ -8,7 +8,7 @@ try {
     $conn = mysqli_connect($hostname, $username, $password);
     echo "Connection Created Successfully";
 } catch (mysqli_sql_exception $err) {
-    echo "Sorry! ". mysqli_connect_error();
+    echo "Sorry! " . mysqli_connect_error();
     die; // This will end the program if there is any error.
 }
 
@@ -21,7 +21,7 @@ try {
     // The query function return true or false.
     echo "<br>Database Created Successfully";
 } catch (mysqli_sql_exception $err) {
-    echo "<br>Sorry! ". mysqli_error($conn);
+    echo "<br>Sorry! " . mysqli_error($conn);
 }
 // That's it we have created our database from php, Smile (:
 
@@ -37,4 +37,3 @@ try {
 */
 
 mysqli_close($conn);
-?>

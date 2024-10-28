@@ -8,7 +8,7 @@ try {
     $conn = mysqli_connect($hostname, $username, $password);
     echo "Connection Created Successfully";
 } catch (mysqli_sql_exception $err) {
-    echo "Sorry! ". mysqli_connect_error();
+    echo "Sorry! " . mysqli_connect_error();
     die;
 }
 
@@ -17,7 +17,7 @@ try {
     mysqli_query($conn, $sql);
     echo "<br>Database Created Successfully";
 } catch (mysqli_sql_exception $err) {
-    echo "<br>Sorry! ". mysqli_error($conn);
+    echo "<br>Sorry! " . mysqli_error($conn);
 }
 
 // NOW TO USE A DATABASE THERE ARE TWO BASE:
@@ -36,7 +36,7 @@ try {
     mysqli_query($conn, $sql);
     echo "<br>Used Database Successfully";
 } catch (mysqli_sql_exception $err) {
-    echo "<br>Sorry! ". mysqli_error($conn);
+    echo "<br>Sorry! " . mysqli_error($conn);
 }
 
 // NOW THAT WE USED THE DATABASE WE CAN NOW CREATE A TABLE IN IT.
@@ -44,7 +44,7 @@ try {
     mysqli_query($conn, "CREATE TABLE `HEROES` (`SNO` INT PRIMARY KEY AUTO_INCREMENT, `NAME` VARCHAR(30) NOT NULL, `AGE` INT NOT NULL)");
     echo "<br>Table Created Successfully";
 } catch (mysqli_sql_exception $err) {
-    echo "<br>Sorry! ". mysqli_error($conn);
+    echo "<br>Sorry! " . mysqli_error($conn);
 }
 
 // AND AGAIN IN THE SIMILAR WAY WE DELETE DATABASE WE CAN DELETE TABLE.
@@ -63,4 +63,3 @@ mysqli_close($conn);
 // TIP: IF YOU KNOW HOW TO USE phpMyAdmin YOU CAN DIRECTLY COPY SQL QUERIES FROM IT'S CONSOLE AND USE THEM.
 
 // I'M ASSUMING THAT YOU HAVE COMPLETED YOUR SQL BASICS, IF NOT THEN DON'T PROCEED.
-?>
