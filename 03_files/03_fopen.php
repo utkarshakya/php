@@ -26,7 +26,7 @@ fclose($filePointer);
 // Also when we open the file in write mode:
 /*
 $filePointer = fopen("myfile.txt", "w");
-fwrite($filePointer, " Everything is file bro.");
+fwrite($filePointer, "You Just Overwrite Everything Here.");
 fclose($filePointer);
 */
 // The write mode will overwrite the content, so it you run the above peace of code it will delete all the content of the file
