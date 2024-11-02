@@ -19,9 +19,19 @@ echo "<br>" . $content;
 /*
 $filePointer = fopen("myfile.txt", "a"); // check here I open it with "a" which is append mode
 fwrite($filePointer, " Everything is file bro.");
-fclose($filePointer); // Close The opened file
+fclose($filePointer);
 */
 // The above line of code adds some connect in you myfile.txt file. Go and see it after running the above code.
 
-// We'll learn more about these as we go on.
+// Also when we open the file in write mode:
+/*
+$filePointer = fopen("myfile.txt", "w");
+fwrite($filePointer, " Everything is file bro.");
+fclose($filePointer);
+*/
+// The write mode will overwrite the content, so it you run the above peace of code it will delete all the content of the file
+// and add the given in the fwrite() function. Also if the opening file does not exists it will create it automatically (append also do the same).
+
+// Learn more about these modes from the table given in this document:
+// https://www.php.net/manual/en/function.fopen.php
 ?>
