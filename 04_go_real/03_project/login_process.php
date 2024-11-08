@@ -1,5 +1,5 @@
 <?php
-require "_connection.php";
+require "connection.php";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
     $password = $_POST["password"];
@@ -9,14 +9,16 @@ $result = mysqli_query($conn, $selectUsernameSQL);
 $numberOfRows = mysqli_num_rows($result);
 if ($numberOfRows == 1) {
     $data = mysqli_fetch_assoc($result);
-    if ($data["USERNAME"] == $username && $data["PASSWORD"] == $password) {
+    if ($data["USERNAME"] == $username && password_verify($password, $data["PASSWORD"])) {
         session_start();
         $data = mysqli_fetch_assoc(mysqli_query($conn, "SELECT `FULL NAME` FROM `USERS`.`USER-DATA` WHERE `USERNAME` = '$username'"));
         $_SESSION["fullName"] = $data["FULL NAME"];
         header("location: welcome.php");
     } else {
-        header("location: login.php?message=username or password not matched");
+        $message = "Invalid Username Or Password";
+        header("location: login.php?message=". urlencode($message));
     }
 } else {
-    header("location: login.php?message=username or password not matched");
+    $message = "Invalid Username Or Password";
+    header("location: login.php?message=". urlencode($message));
 }
